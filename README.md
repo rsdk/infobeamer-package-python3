@@ -2,7 +2,7 @@
 
 This is a fork from [https://github.com/info-beamer/package-python3](https://github.com/info-beamer/package-python3) for [info-beamer](https://info-beamer.com) which is created by Florian Wesch. 
 The changes are just to use Python 3.11 instead of Python 3.7. 
-Tested on a Raspberry Pi with Raspbian (Debian Bookworm).
+Download of deb Packages tested on a Raspberry Pi with Raspbian (Debian Bookworm).
 
 [![Import](https://cdn.infobeamer.com/s/img/import.png)](https://info-beamer.com/use?url=https://github.com/info-beamer/package-python3)
 
