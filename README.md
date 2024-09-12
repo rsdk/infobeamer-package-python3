@@ -9,7 +9,7 @@ Tested on a Raspberry Pi with Raspbian (Debian Bookworm).
 This package bundles a Python3 runtime into a
 [overlay.squashfs file](https://info-beamer.com/doc/package-services#customoverlay).
 info-beamer OS will detect this file and mount it as an overlay into the
-package service's filesystem. This makes Python3.7 available for use in
+package service's filesystem. This makes Python3.11 available for use in
 your `service`.
 
 The first time python3 is invoked it will precompile some python modules
@@ -27,7 +27,7 @@ The included build-overlay and Makefile can be used to create the included
 `overlay.squashfs`. Right now this packages uses Raspbian OS (bookworm) packages
 instead of building its own binaries. Place the following files from the
 Raspbian deb archive into the directory `debs`, for example by using
-`apt-get download`:
+`apt-get download`. Make sure to download 32bit Arm (armhf) if your Download RaspberryPi runs on 64bit OS:
 
 ```
 libpython3.11-minimal_3.11.2-6+deb12u3_armhf.deb
